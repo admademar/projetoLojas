@@ -1,0 +1,69 @@
+TDD =  Test Driver Devolopment 
+       Desenvolvimento Direcionado por Testes
+                        BSTQB ---> para ***
+
+Quando fizemos o Teste de Unidade?
+- Antes de Codificar?   <--- TDD
+- Depois de Codificar?  <--- Vimos nas aulas anteriores (comum)
+
+
+
+Exemplo: 
+
+let somarDoisNumerosTdd = function somarDoisNumerosTdd(num1, num2){
+    //  ToDo: programar a soma de 2 somarDoisNumerosTdd
+    return 0;
+    }
+
+    - Reunião de Sprint Planning
+    > O Time junto definiu 2 estórias
+    > Essas estórias, os desenvolvedores (Devs) entenderam
+    > Que vão render 10 funcionaludades
+
+    Eles são capazes de combinar e escrever
+    1 - O nome de cada uma das funcionalidades
+    2 - os parametros de entrada (input)
+    3 - cometários sobre as funcionalidades
+    4 - deixar um retorno temporario (mock)
+
+
+    Poderiam 
+
+    Pergunta?
+    1 -  Se eles têm esses esqueletos,
+        podem já criar os testes de unidades?
+        Sim (se só depende do time) ou 
+        Depende (se precisamos de permissoes ou recursos externos)
+    2 - Esses testes de unidades inicialmente darão que resultados? (passar/falhar)
+        R: Cuidado - relógio quebrado mostra a hora certa 2x por Dia 
+        Os testes devem falhar inicialmente porque ainda não estã funcionando
+    3 - Para que serve fazer 10 testes de unidade que não passam inicialmente
+
+    Exemplo:
+        Dia     falhou      passou
+        1       10          0
+        2        8          2  --> 20% pronto (métrica de progresso)
+        3        5          5  --> 50% pronto (recuperei parte do atraso)
+        4        6          4  --> 40% pronto (algo novo quebrou algo antigo)
+        5        0          10 --> 
+
+
+        Gráfico de BurnDown
+        
+
+        10  ##
+
+                ##
+
+                    PP
+
+                       
+        05
+
+
+
+        01
+
+        Resumindo o TDD:
+        - Criação dos testes de unidade antes da codificação principal
+        - Execução 

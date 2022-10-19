@@ -1,0 +1,18 @@
+{
+    "id": 2671954,
+    "category": {
+      "id": 1,
+      "name": "dog"
+    },
+    "name": "dolli",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "castrado"
+      }
+    ],
+    "status": "available"
+  }
